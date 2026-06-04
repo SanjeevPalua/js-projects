@@ -6,7 +6,7 @@ let choices = document.querySelectorAll('button');
 
 choices.forEach(choice => {
     choice.addEventListener('click', e => {
-            console.log(choice.id);
+            // console.log(choice.id);
             user.innerText = choice.id;
             computerChoice()
             res()
